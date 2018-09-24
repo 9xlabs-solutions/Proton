@@ -1,0 +1,30 @@
+{
+    "name": "9xlabs-solutions/proton",
+    "description": "",
+    "authors": [
+        {
+            "name": "9xlabs",
+            "email": "support@9xlabs.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Proton\\Providers\\ProtonServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "require": {
+        "infyomlabs/laravel-generator": "5.7.x-dev",
+        "laravelcollective/html": "^5.7.0",
+        "infyomlabs/adminlte-templates": "5.7.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Proton\\": ""
+        }
+    }
+}
